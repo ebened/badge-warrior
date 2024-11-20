@@ -73,7 +73,7 @@ Each attribute is kept in a database and accessed randomly to construct a badge.
 
 The Action is used to contribute to naming the badge. For instance, if a user clicks the Badge Generator would use this action to access a database of 'click' related words (e.g. 'clicker', 'tapper', 'morse-something', etc.) which would then be used to create the badge name. Additionaly generic adjectives would be used to add on to the 'Action-word' to help build the name. These adjectives could be independent of the action and simply be added on via a generic adjective database (e.g. 'awesome', 'rad', 'mediocre' + Action-word).
 
-*NOTE: Possible configurations of a badge: [(*v*)]  [] = border  () = field  *v* = symbol(s)*
+*NOTE: Possible configurations of a badge: [(xxxO)] ----- [ ] = border ----- ( ) = field ----- xxxO = symbol(s)*
 
 ##### Badge attribute attribute: Color
 
@@ -89,7 +89,7 @@ A field is the interior of the Border. It could have a texture to it, but I'm im
 
 ##### Badge attribute: Symbol
 
-Symbols would be what reside in the field of the badge. There can be more than one type of symbol per badge. Borders and symbols could be the same with just a matter of scale affecting them, for instance, a badge could consist of: Border = star Field = gold Symbol = star x 2 + flame x 1. Recycling the borders as symbols could make things easier but it could also make things a bit staler.
+Symbols would be what reside in the field of the badge. There can be more than one type of symbol per badge. Borders and symbols could be the same with just a matter of scale affecting them, for instance, a badge could consist of: Border = star Field = gold Symbol = star x 3 + flame x 1. Recycling the borders as symbols could make things easier but it could also make things a bit staler.
 
 - Symbols have an additional attribute of Number, so that we could have three stars like in the above example 'Symbol = star x 3' 
 
